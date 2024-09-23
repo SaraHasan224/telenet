@@ -1,0 +1,437 @@
+[2024-09-23T19:32:54.202Z] [INFO]: New connection to the server established
+[2024-09-23T19:32:54.207Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:32:54.216Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:32:54.225Z] [INFO]: New connection to the server established
+[2024-09-23T19:33:15.262Z] [WARN]: Retrying connection to controller... Attempts left: 3
+[2024-09-23T19:33:15.263Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:33:15.264Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:33:15.266Z] [INFO]: Server connection to device closed
+[2024-09-23T19:33:15.268Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:33:15.269Z] [INFO]: Server connection to device closed
+[2024-09-23T19:37:42.508Z] [INFO]: Processing data: test data
+[2024-09-23T19:37:44.125Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:37:47.136Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:37:50.142Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:40:54.120Z] [INFO]: Processing data: test data
+[2024-09-23T19:40:55.761Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:40:58.767Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:41:01.776Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:42:13.320Z] [INFO]: Processing data: test data
+[2024-09-23T19:42:15.161Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:42:18.165Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:42:21.173Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:51:44.147Z] [INFO]: Processing data: test data
+[2024-09-23T19:51:45.981Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:51:48.987Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:51:51.998Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:52:22.837Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:52:25.854Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:52:28.856Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:53:25.612Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:53:28.629Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:53:31.645Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:54:37.445Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:54:40.454Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:54:43.460Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:55:09.824Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:55:12.839Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:55:15.843Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:55:29.943Z] [WARN]: Retrying connection to controller... Attempts left: 2
+[2024-09-23T19:55:32.950Z] [WARN]: Retrying connection to controller... Attempts left: 1
+[2024-09-23T19:55:35.967Z] [ERROR]: Failed to connect to controller after multiple attempts: connect ECONNREFUSED 127.0.0.1:3001
+[2024-09-23T19:57:37.457Z] [INFO]: Server created and listening for connections on port 3000
+[2024-09-23T19:57:39.740Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:39.748Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:39.762Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:39.776Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:47.313Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:47.316Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:47.324Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:47.334Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:47.335Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:47.336Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:47.337Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:47.337Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:47.344Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:47.350Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:47.350Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:47.351Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:47.352Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:47.353Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:47.358Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:48.014Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:48.015Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:48.017Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:48.020Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:48.022Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:48.024Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:48.030Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:50.009Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:50.010Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:50.011Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:57:50.013Z] [INFO]: Server connection to device closed
+[2024-09-23T19:57:51.469Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:51.473Z] [INFO]: New connection to the server established
+[2024-09-23T19:57:51.476Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:57:51.482Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:58:00.802Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:00.803Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:00.803Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:00.804Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:04.685Z] [INFO]: New connection to the server established
+[2024-09-23T19:58:04.720Z] [ERROR]: Server encountered an error: read ECONNRESET
+[2024-09-23T19:58:04.721Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:04.721Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:04.722Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:09.064Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:09.064Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:09.065Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:09.065Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:12.518Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:12.519Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:12.521Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:12.522Z] [ERROR]: Client encountered an error: connect ETIMEDOUT 192.168.1.100:23
+[2024-09-23T19:58:12.522Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:12.523Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:12.524Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:12.525Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:12.527Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:12.528Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:13.639Z] [INFO]: New connection to the server established
+[2024-09-23T19:58:13.640Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:58:13.645Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T19:58:13.651Z] [INFO]: New connection to the server established
+[2024-09-23T19:58:16.461Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:16.463Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:16.464Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:16.465Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:21.127Z] [INFO]: New connection to the server established
+[2024-09-23T19:58:21.158Z] [ERROR]: Server encountered an error: read ECONNRESET
+[2024-09-23T19:58:21.159Z] [INFO]: Server connection to device closed
+[2024-09-23T19:58:21.159Z] [INFO]: Client connection to controller closed
+[2024-09-23T19:58:21.160Z] [INFO]: Client connection to controller closed
+[2024-09-23T20:07:42.958Z] [INFO]: Server created and listening for connections on port 3000
+[2024-09-23T20:07:47.389Z] [INFO]: New connection to the server established
+[2024-09-23T20:07:47.392Z] [INFO]: Server received data from device: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T20:07:47.397Z] [INFO]: Processing data: GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Cookie: __stripe_mid=ff8ef366-5b9c-4740-881d-d59bbda3e764c61aed; _ga=GA1.1.1977837108.1704133461; _ga_PTKDG26Q6T=GS1.1.1704133461.1.1.1704135135.0.0.0; ajs_user_id=908151b6-1765-480e-b143-ad33b7d2e09d; ajs_anonymous_id=f3641f56-b22e-47f9-a6a8-81a45a5f64f6; _ga_883FY9N6N6=GS1.1.1707137682.2.1.1707137707.0.0.0; access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2I1N2ZiY2MzN2U2MzAyN2ZlNTI5ZDg2ZDNhNWUyYzZmZmUyZDYxMGQ0MDJkOTU4ZDEwZGJiMzBkMTc1YjBkMjlhNzEyZTMzNjMzMmY0YWUiLCJpYXQiOjE3MjQ4MDAyNjYuNDI1NzksIm5iZiI6MTcyNDgwMDI2Ni40MjU3OTYsImV4cCI6MTc1NjMzNjI2Ni4zNDYzMjEsInN1YiI6IjgiLCJzY29wZXMiOlsiY3VzdG9tZXIiXX0.U7PXQv2u-zPLeJKqldDsy_lOMbMde8VPG_ra8tAxX7xudsCSmn4NwqzbkNjdYRhpYfKHNMGss0cNkaAm7U7SnVtShR0sr5ivJGtsCLgIBIyqg9uB_7N_DLbw32wuQZrYE76mhwIMEWqHear246q7_dh73FPGzcomd42LiiRkdkIFTmSCP-1z1XOjY_PSX6CiTN3SajI2q_MfGDN5tJVHLbaU7gnVZJz2dSjGLQVD1tN6OghSx61BqFOq6jQR5GZ_WrXqezchlieSnMoaTKtTmbao5C8vYiyQ604HhqKLrCXtbyzAySWHSPfrP3A2mnQ_dRasP5I9MpR2U8eg-NH1hiEla91A2rNu0vtn7TKSruFnsLsrM7RglN88Q7EpynQXGKUnwVYiUrDyKqHhUb3by4_1PldfjpSiweECNXybtri5p9_bT4yPxU0QWMa3tvMDI6btwV85PNkwPfjGuUlaJtkU2UX8jN7O7X380GVLr0bmfJZRjkLUf2KfgwZmz9hZyi8jYmKdtBinCmvVva2moj5aPWLbT1MXCYoBISGyD0MVDBcAMS38glppar4j08TonaHmLsFjwVamL6fuhh_MM3CvwPXtXy-DAV9eHb62_lQOmeQktQGv-OFeMoFHW93JRsNKqsz4sfy8xyltF8f1MFnbWQ1zf2i5bJ8l8vpsQLg
+
+
+[2024-09-23T20:07:47.400Z] [INFO]: New connection to the server established
